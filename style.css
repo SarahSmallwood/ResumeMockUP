@@ -1,0 +1,48 @@
+.titleContainer{
+    border: solid green;
+    background-color: darkslategray;
+    color: blanchedalmond;
+    text-align: right;
+    padding-right: 20px;
+}
+.selfPortrait{
+    border: solid blue;
+
+}
+.contactContainer{
+    border: solid red;
+    text-align: center;
+    display: flex;
+    justify-content:  space-evenly;
+    background-color: blanchedalmond;
+    color: slategray;
+
+}
+.profileContainer{
+    border: solid orange;
+    height: 30px;
+    padding: 0.5px;
+    margin-top: 0.5px;
+
+}
+.profile{
+    border:solid greenyellow;
+}
+.profileP{
+    border: solid blue;
+}
+.skillContainer{
+    border: solid pink;
+    margin-top: 75px;
+    width: 150px;
+}
+.skillList{
+    border: solid black;
+    width: 100px;
+}
+.experience{
+    border: solid fuchsia;
+}
+.education{
+    border: solid black;
+}
