@@ -1,48 +1,85 @@
 .titleContainer{
-    border: solid green;
     background-color: darkslategray;
     color: blanchedalmond;
+    height: 140px;
+    display: flex;
+    width: 100%;
+}
+.jobTitle{
+   text-align: right;
+   display: flex;
+   justify-content: space-between;
+}
+.name{
     text-align: right;
-    padding-right: 20px;
+    display: flex;
 }
 .selfPortrait{
-    border: solid blue;
-
+    border-radius: 20px;
+    height: 140px;
+    display: flex;
+    justify-content: right;
+    margin-left: 45%;
 }
 .contactContainer{
-    border: solid red;
+    border: solid darkslategray;
     text-align: center;
     display: flex;
     justify-content:  space-evenly;
     background-color: blanchedalmond;
     color: slategray;
-
 }
 .profileContainer{
-    border: solid orange;
-    height: 30px;
+    height: 130px;
     padding: 0.5px;
     margin-top: 0.5px;
-
-}
-.profile{
-    border:solid greenyellow;
 }
 .profileP{
-    border: solid blue;
+    display: none;
+    background-color: darkslategray;
+    border: solid black;
+    display: absolute;
+}
+#profileP{
+    display: block;
+    background-color: darkslategray;
+}
+.aboutMe{
+    height: 120px;
+    background-color: darkslategray;
+    align-items: center;
+    width: 300px;
+    border-radius: 20px;
+    color: blanchedalmond;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+
 }
 .skillContainer{
-    border: solid pink;
-    margin-top: 75px;
-    width: 150px;
+    border: solid darkslategrey;
+    border-width: .5em;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
 }
 .skillList{
-    border: solid black;
-    width: 100px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.rowTwo{
+    display: flex;
+    height: 500px;
 }
 .experience{
     border: solid fuchsia;
 }
 .education{
-    border: solid black;
+    border: solid darkslategrey;
+    border-width: .5em;
+    width: 650px;
+    height: 500px;
 }
