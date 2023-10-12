@@ -36,10 +36,11 @@
     margin: 5px;
 }
 .profileContainer{
-    border: solid blue;
     height: 60px;
     padding: 0.5px;
     margin-top: 0.5px;
+    display: flex;
+    justify-content: center;
 }
 .profileP{
     display: none;
@@ -63,6 +64,18 @@
     justify-content: center;
     margin-left: 35%;
 
+}
+.icons{
+    border: none;
+}
+.link{
+    height: 60px;
+}
+.insta{
+    height: 60px;
+}
+.photo{
+    height: 60px;
 }
 .skillContainer{
     border: solid darkslategrey;
