@@ -1,36 +1,43 @@
 .titleContainer{
-    background-color: darkslategray;
-    color: blanchedalmond;
+    background-color: rgb(23, 49, 49);
+    color: rgb(206, 189, 163);
     height: 140px;
     display: flex;
     width: 100%;
+    border-radius: 10px;
 }
 .jobTitle{
    text-align: right;
-   display: flex;
-   justify-content: space-between;
+   height: 40px;
+   width: 400px;
+   margin-left: 30px;
 }
 .name{
+    margin-left: 30px;
     text-align: right;
     display: flex;
+    margin-top: 30px;
 }
 .selfPortrait{
     border-radius: 20px;
     height: 140px;
-    display: flex;
-    justify-content: right;
-    margin-left: 45%;
+    display: inline-flex;
+    margin-left: 30%;
+    
 }
 .contactContainer{
-    border: solid darkslategray;
+    border: solid rgb(23, 49, 49);
     text-align: center;
     display: flex;
     justify-content:  space-evenly;
-    background-color: blanchedalmond;
+    background-color: rgb(244, 219, 182);
     color: slategray;
+    border-radius: 10px;
+    margin: 5px;
 }
 .profileContainer{
-    height: 130px;
+    border: solid blue;
+    height: 60px;
     padding: 0.5px;
     margin-top: 0.5px;
 }
@@ -69,6 +76,7 @@
     width: 250px;
     display: flex;
     flex-direction: column;
+    list-style-type: none;
 }
 .rowTwo{
     display: flex;
@@ -76,6 +84,10 @@
 }
 .experience{
     border: solid fuchsia;
+    border: solid darkslategrey;
+    border-width: .5em;
+    width: 916px;
+    height: 500px;
 }
 .education{
     border: solid darkslategrey;
